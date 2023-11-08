@@ -2,5 +2,8 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+remappings = ["@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts"]
+ffi = true                                                                       #Allowing foundry to run commands on your machine. Turn off when not use
+#turned on so that can work with pattrick's foundry-devops library
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
